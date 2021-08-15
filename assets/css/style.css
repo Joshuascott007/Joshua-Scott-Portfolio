@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 60px;
+}
+
+header h1 {
+    color:white;
+}
+
+header h2 {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+
+}
+
+/* Navagation */
+header nav {
+    list-style-type: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: white;
+}
+
+
+/* Logo picture (main) */
+.logo {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/logo-place-holder.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* About me section */
+.about-me {
+    width: 100%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.about-me h3 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    
+}
+
+.about-me p {
+    font-size: 25px;
+}
+
+.photo {
+    float: left;
+    height: 200px;
+    margin-right: 25px;
+}
+
+/* Projects Section */
+.project {
+    width: 100%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.project h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 50px;
+
+
+}
+.project1 {
+    height: 300px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.projects p {
+    margin-left: 50px;
+}
+
+.project1:hover {
+    height: 350px;
+}
+
+
+/* Contact Section */
+.contact {
+    width: 100%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.email {
+    height: 300px;
+}
+
+
+/* Footer */
+footer {
+    padding: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+footer h4 {
+    font-size: 25px;
+}
